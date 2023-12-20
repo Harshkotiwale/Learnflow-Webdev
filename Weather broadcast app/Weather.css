@@ -1,0 +1,101 @@
+body{
+
+    font-family: 'Lato', sans-serif;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(243, 231, 231);
+     background-image:url(1668257949_image2.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }  
+ .heading {
+   display: flex;
+   align-items: first baseline;
+   flex-basis: 50%;
+   color: rgba(0, 0, 0, 0.785);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   width: 5000px;
+   font-size: xx-large;
+   background-color: #f2e2e238;
+   
+   
+ }
+ .row{
+
+   height: 88%;
+   font-family:'Times New Roman', Times, serif;
+   font-size:larger ;
+   font-weight: 100;
+   font-display:inherit;
+   color:rgba(238, 221, 221, 0.856);
+   text-align:center;
+ }
+ .col{
+   flex-basis: 50%;
+ }
+ .srh{
+    display: flex;
+    margin-top: 11px;
+ }
+ input{
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(24, 125, 158);
+ }
+ button{
+    width: 70px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(236, 250, 191);
+    margin-top: 2px;
+    margin-inline: 9px;
+ }
+ ::placeholder{
+    color: rgb(224, 197, 197);
+ }
+ #city{
+    margin-top: 33px;
+    font-size: 33px;
+ }
+ #temp{
+    font-size: 40px;
+    margin-top: -13px;
+ }
+ #type{
+    font-size: 26px;
+    margin-top: -33px;
+ }
+ .container{
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #dfc5c5;
+ }
+ img{
+    width: 210px;
+    margin-top: -22px;
+ }
+ #para{
+   position: absolute;
+   color: rgba(0, 0, 0, 0.992);
+  top: 75%;
+  left: 36%;
+  bottom: 20%;
+  bottom margin: 50%;
+  transform: translate(-50%, -50%);
+   background-color: #dfc5c5;
+   opacity: 0.7;
+  height: 200px;
+  box-sizing: content-box; 
+ }
