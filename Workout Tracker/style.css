@@ -1,0 +1,49 @@
+body {
+    font-family:cursive;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #data-container {
+    border: 1px solid #d7b6b6;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  #activity-section {
+    margin-top: 20px;
+  }
+  
+  select, input {
+    padding: 5px;
+    border: 1px solid #975050;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #afb7bf;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
